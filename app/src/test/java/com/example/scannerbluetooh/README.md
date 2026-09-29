@@ -45,4 +45,4 @@ As seguintes permissões foram declaradas no `AndroidManifest.xml` e geridas em 
 ### Passos de Execução
 1. Clone este repositório para o seu computador:
    ```bash
-   git clone [https://github.com/StelioGuambe/ScannerBluetooth.git](https://github.com/StelioGuambe/ScannerBluetooth.git)
+   git clone [https://github.com/StelioGuambe/Scanner_Bluetooth.git](https://github.com/StelioGuambe/Scanner_Bluetooth.git)
