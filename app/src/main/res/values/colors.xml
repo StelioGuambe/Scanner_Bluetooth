@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fundo_escuro">#121212</color>
+    <color name="fundo_cartao">#1E1E1E</color>
+    <color name="texto_principal">#FFFFFF</color>
+    <color name="texto_secundario">#B0B0B0</color>
+    <color name="cor_botao">#3700B3</color>
+    <color name="divisor_linha">#2C2C2C</color>
+</resources>

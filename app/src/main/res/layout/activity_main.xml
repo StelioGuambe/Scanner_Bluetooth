@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    tools:context=".MainActivity">
+
+    <!-- titulo Centralizado -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/barra_top_app"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#1F1F1F"
+        app:title="">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- campo de Filtro, Botão de Busca e Barra de Progresso -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/campo_filtro_texto"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="@string/dica_filtro"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#AAAAAA"
+                android:background="#2C2C2C"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:importantForAutofill="no" />
+
+            <Button
+                android:id="@+id/botao_iniciar_busca"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:text="@string/texto_botao_buscar"
+                android:textColor="#FFFFFF"
+                android:background="#2196F3" />
+
+            <ProgressBar
+                android:id="@+id/barra_progresso_busca"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="8dp"
+                android:indeterminateTint="#2196F3"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- llista de Dispositivos -->
+        <ListView
+            android:id="@+id/lista_dispositivos_encontrados"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:divider="#333333"
+            android:dividerHeight="1dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

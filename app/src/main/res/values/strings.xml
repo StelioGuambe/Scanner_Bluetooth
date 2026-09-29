@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Scanner Bluetooth</string>
+    <string name="dica_filtro">Filtrar dispositivos...</string>
+    <string name="texto_botao_buscar">BUSCAR</string>
+    <string name="mensagem_ativar_bluetooth">Por favor, ative o Bluetooth.</string>
+    <string name="mensagem_pesquisando">A procurar dispositivos...</string>
+    <string name="titulo_detalhes">Detalhes do Dispositivo</string>
+    <string name="texto_botao_voltar">VOLTAR</string>
+</resources>
